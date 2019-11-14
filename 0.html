@@ -3,9 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>내가 좋아하는 연어맛집</title>
+
   </head>
-  <h1>  <a href="0.html">내가 좋아하는 것들</a></h1>
+
   <body>
+    <h1>  <a href="0.html">내가 좋아하는 것들</a></h1>
+    <div class="grid">
+      <div class="navigation">
+        <div class="article"
     <ol>
     <li><a href="1.html">홍대이자카야 류</a></li>
       <li><a href="2.html">영등포 무한연어</a></li>
@@ -20,4 +25,18 @@
 <style media="screen">
 h1{border:15px orange dotted;
 padding: 50px;
-margin:20px;}
+margin:20px;
+text-align: center;
+font-size: 70px;
+border-bottom: 2px pink solid;
+margin-bottom:0px;}
+a{text-decoration:none;
+color:black
+}
+.grid{display: grid; grid-template-columns:150px 1fr;
+border:3px solid pink;}
+.navigation{border:3px solid pink;
+border-right: 3px solid pink;
+font-size: 30px}
+.article{padding-left:30px}
+</style>
